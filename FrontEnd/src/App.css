@@ -1,0 +1,91 @@
+.component {
+  position: relative;
+  height: 70vh;
+  color: #000000;
+}
+.margin {
+  padding: 10px;
+}
+
+/* --------------header----------------------- */
+.header {
+  color: #ffffff;
+  background-color: #00284d;
+  position: relative;
+
+  z-index: 1;
+  width: 100%;
+  height: 15vh;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+a:hover {
+  color: rgb(192, 244, 253);
+}
+/* -----------------Login---------------------- */
+
+.login-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.button {
+  margin: 5px;
+  background-color: #00284d;
+  color: #fff;
+  border-radius: 50px;
+  width: 100px;
+  padding: 5px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-weight: 700;
+}
+.button:hover {
+  color: #000;
+  border: #00284d;
+  border-width: 2px;
+  background-color: rgb(0, 145, 212);
+  transition: all 0.2s;
+}
+/* ----------------User Management----------------------- */
+#usermanagement {
+  color: #000;
+}
+td {
+  padding: 5px;
+}
+.btn {
+  margin: 0px 5px;
+}
+/* ----------------Form----------------------- */
+
+h3 {
+  text-align: center;
+  margin: 10px;
+}
+h1 {
+  text-align: center;
+  margin: 20px;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+}
+
+/* ----------------footer----------------------- */
+.footer {
+  color: #ffffff;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  background-color: #00284d;
+  height: 100px;
+  width: 100%;
+  position: relative;
+}
